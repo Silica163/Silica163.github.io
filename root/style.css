@@ -18,13 +18,13 @@ html{
   left:50%;
   transform:translate(-50%,-50%);
 }
-.inp{
+input.inp{
   background-color:var(--bg);
   color:var(--fg);
   height:30px;
   font-size: 20px;
 }
-.num{
+input.num{
   background-color:var(--bg);
   color:var(--fg);
   width:50px;
