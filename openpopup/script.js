@@ -8,5 +8,7 @@ var getvarlue = ()=>{
     console.log(this);
 }
 document.addEventListener('keydown',(ev)=>{
-    if(ev.key=='Enter'){getvarlue();}
+    if(ev.key=='Enter'){
+        getvarlue();
+    }
 });
