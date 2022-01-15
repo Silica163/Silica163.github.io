@@ -7,6 +7,6 @@ var getvarlue = ()=>{
     var hei = document.getElementsByName("hei")[0];
     console.log(this);
 }
-Document.addEventListener('keydown',(ev)=>{
+document.getElementsByTagName("html")[0].addEventListener('keydown',(ev)=>{
     console.log(ev);
 });
