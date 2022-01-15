@@ -1,11 +1,25 @@
+:root{
+  --bg:#232323;
+  --fg:#eee;
+}
+::selection{
+  background-color: var(--fg);
+  color: var(--bg);
+}
 html{
-  background-color:#232323;
-  color:#eee;
+  background-color:var(--bg);
+  color:var(--fg);
   margin:auto;
+  font-family: consolas;
 }
 .center{
   position:absolute;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
+}
+.inp{
+  background-color:var(--bg);
+  color:var(--fg);
+  font-size: 30px;
 }
