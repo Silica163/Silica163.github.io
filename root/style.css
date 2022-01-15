@@ -5,6 +5,7 @@ html{
   transform:translate(-50%,-50%);
   background-color:#232323;
   color:#eee;
+  margin:auto;
 }
 h1{
   position:absolute;
