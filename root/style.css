@@ -21,5 +21,6 @@ html{
 .inp{
   background-color:var(--bg);
   color:var(--fg);
+  height:50px;
   font-size: 30px;
 }
