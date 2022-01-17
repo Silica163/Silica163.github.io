@@ -9,7 +9,7 @@ var getvarlue = ()=>{
     console.dir(link);
     console.log(wid);
     console.log(hei);
-    openp(link,wid,hei);
+    openp(link.value,wid.value,hei.value);
 }
 document.addEventListener('keydown',(ev)=>{
     if(ev.key=='Enter'){
