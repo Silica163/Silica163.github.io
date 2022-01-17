@@ -5,7 +5,7 @@ var getvarlue = ()=>{
     var link = document.getElementsByName("link")[0];
     var wid = document.getElementsByName("wid")[0];
     var hei = document.getElementsByName("hei")[0];
-    console.dir(this,link,wid,hei);
+    console.log(link,wid,hei);
 }
 document.addEventListener('keydown',(ev)=>{
     if(ev.key=='Enter'){
