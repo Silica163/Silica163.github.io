@@ -1,4 +1,4 @@
-var openp = (link,width,width) =>{
+var openp = (link,width,height) =>{
     open(`${link}`,'',`width=${width}px,height=${height}px`);
 }
 var getvarlue = ()=>{
