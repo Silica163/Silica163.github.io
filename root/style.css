@@ -27,10 +27,6 @@ input.inp{
   font-size: 20px;
 }
 input.num{
-  background-color:var(--bg);
-  color:var(--fg);
   width:100px;
   text-align: right;
-  height:30px;
-  font-size: 20px;
 }
