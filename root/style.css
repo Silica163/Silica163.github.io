@@ -18,7 +18,7 @@ html{
   left:50%;
   transform:translate(-50%,-50%);
   min-width:500px;
-  max-xidth:1000px;
+  max-width:1000px;
 }
 input.inp{
   background-color:var(--bg);
