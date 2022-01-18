@@ -21,6 +21,7 @@ html{
   max-width:1000px;
 }
 input.inp{
+  margin:auto;
   background-color:var(--bg);
   color:var(--fg);
   height:30px;
