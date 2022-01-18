@@ -1,5 +1,5 @@
 var openp = (link,height,width) =>{
-    open(`${link}`,'',`width:${width}px,height:${height}px`);
+    open(`${link}`,'',`width=${width}px,height=${height}px`);
 }
 var getvarlue = ()=>{
     var link = document.getElementsByName("link")[0];
