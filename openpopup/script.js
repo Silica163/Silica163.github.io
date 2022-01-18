@@ -5,10 +5,9 @@ var getvarlue = ()=>{
     var link = document.getElementsByName("link")[0];
     var wid = document.getElementsByName("wid")[0];
     var hei = document.getElementsByName("hei")[0];
-    console.log(link,wid,hei);
     console.dir(link);
-    console.log(wid);
-    console.log(hei);
+    console.dir(wid);
+    console.dir(hei);
     openp(link.value,wid.value,hei.value);
 }
 document.addEventListener('keydown',(ev)=>{
