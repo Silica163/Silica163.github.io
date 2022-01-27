@@ -10,8 +10,4 @@ var getvarlue = ()=>{
     console.dir(hei);
     openp(link.value,wid.value,hei.value);
 }
-document.addEventListener('keydown',(ev)=>{
-    if(ev.key=='Enter'){
-        getvarlue();
-    }
-});
+document.addEventListener('change',getvarlue);
