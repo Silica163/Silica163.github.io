@@ -1,0 +1,37 @@
+console.log("service worker loadded.");
+
+const pdfjsFiles = [
+    "./index.html",
+]
+
+function loadToCache(files){
+    let cache = caches.open("pdfjs");
+    cache.addAll(files);
+}
+
+self.addEventListener("install",e => {
+    console.log(e);
+    e.waitUntil(
+        loadToCache(pdfjsFiles)
+    );
+});
+
+function cacheFile(req){
+    console.log(req.url);
+    let path = caches.match(req);
+    if(path)
+        return path;
+    let res = fetch(req);
+    let cache = caches.open("pdfjs");
+    if(res.clone() == undefined)
+        cache.put(req,res.clone());
+    return res;
+};
+
+self.addEventListener("fetch",e=>{
+    e.respondWith(cacheFile(e.request));
+});
+
+self.addEventListener("activate", (event) => {
+    event.waitUntil(self.registration?.navigationPreload.enable());
+});

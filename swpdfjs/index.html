@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv=refresh content=0;url=./web/viewer.html />
+    </head>
+    <body>
+        <script>
+var swRegister;
+if( "serviceWorker" in window.navigator )try{
+    swRegister = window.navigator.serviceWorker.register("./web/sw.js",{scope:"/"});
+    console.log(swRegister);
+}catch(e){
+    console.warn(e);
+}
+</script>
+
+    </body>
+</html>
