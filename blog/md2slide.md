@@ -18,7 +18,7 @@ But it is a diffrent story in converting to slide.
 First with styling the texts, some are center, some are big, slide with image, page arrangement, a lot of styling and page arrangement.
 I just wan't to use something simple and easy, like add a prefix to the text to make it center, add some image to the left, or page number.
 
-# Solution
+## Solution
 After some search on internet and LLM, I found a javascript framework that do what I want. 
 It can covert a mardown script to slide beside that, I can add some custom style (like color and font family).
 It's call [Marp](https://marp.app/) (Markdown Presentation Ecosystem), it can saparate the slide, styling text, and even have a presentation system on itself.
