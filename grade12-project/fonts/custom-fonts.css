@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Bold'), local('Sarabun-Bold'),
+        url('Sarabun-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Bold Italic'), local('Sarabun-BoldItalic'),
+        url('Sarabun-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun ExtraBold'), local('Sarabun-ExtraBold'),
+        url('Sarabun-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Medium'), local('Sarabun-Medium'),
+        url('Sarabun-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Italic'), local('Sarabun-Italic'),
+        url('Sarabun-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Light Italic'), local('Sarabun-LightItalic'),
+        url('Sarabun-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun ExtraLight Italic'), local('Sarabun-ExtraLightItalic'),
+        url('Sarabun-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Light'), local('Sarabun-Light'),
+        url('Sarabun-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun ExtraLight'), local('Sarabun-ExtraLight'),
+        url('Sarabun-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun ExtraBold Italic'), local('Sarabun-ExtraBoldItalic'),
+        url('Sarabun-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Regular'), local('Sarabun-Regular'),
+        url('Sarabun-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun SemiBold Italic'), local('Sarabun-SemiBoldItalic'),
+        url('Sarabun-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Thin'), local('Sarabun-Thin'),
+        url('Sarabun-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Thin Italic'), local('Sarabun-ThinItalic'),
+        url('Sarabun-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun Medium Italic'), local('Sarabun-MediumItalic'),
+        url('Sarabun-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: local('Sarabun SemiBold'), local('Sarabun-SemiBold'),
+        url('Sarabun-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: local('DejaVu Sans Mono'), local('DejaVuSansMono'),
+        url('DejaVuSansMono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
