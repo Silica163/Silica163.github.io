@@ -3,7 +3,17 @@
 <head>
     <title>Silica163</title>
     <meta charset="utf-8"></meta>
+    <link rel="stylesheet" href=/assets/css/main.css>
 </head>
 <body>
+    <center id=noserver style="color:red;display:none;"><h1>THIS PAGE MAY NOT WORK WITHOUT SERVER</h1></center>
+    <a href=/blog>Blogs</a><br>
+    <a href=/grade12-project>Grade 12 Project</a><br>
+    <a href=/openpopup>Want some popup?<a>
+    <script>
+        if(document.location.href.indexOf("http") == -1){
+            document.getElementById('noserver').style.display = "block";
+        }
+    </script>
 </body>
 </html>
