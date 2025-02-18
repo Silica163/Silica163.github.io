@@ -56,9 +56,9 @@
 $$
 \begin{align*} 
 p(t) &= \vec ray_{origin} + \vec ray_{direction} \cdot t \newline
-dencity (\vec v) & = \min_{i,j \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j\end{bmatrix}\right)\rvert\right)\newline
+density (\vec v) & = \min_{i,j \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j\end{bmatrix}\right)\rvert\right)\newline
 color(\vec v) &= \vert\vec v\rvert \cdot color_1 + (1 - \lvert\vec v\rvert) \cdot color_2 \newline
-FinalColor &= \int_0^L color(p(t)) \cdot dencity(p(t)) \cdot dt
+FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt
 \end{align*}
 $$
 
@@ -184,9 +184,9 @@ $$
 $$
 \begin{align*}
 p(t) &= \vec ray_{origin} + \vec ray_{direction} \cdot t \newline
-dencity (\vec v) & = \min_{i,j \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j\end{bmatrix}\right)\rvert\right)\newline
+density (\vec v) & = \min_{i,j \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j\end{bmatrix}\right)\rvert\right)\newline
 color(\vec v) &= \vert\vec v\rvert \cdot color_1 + (1 - \lvert\vec v\rvert) \cdot color_2 \newline
-FinalColor &= \int_0^L color(p(t)) \cdot dencity(p(t)) \cdot dt
+FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt
 \end{align*}
 $$
 
@@ -198,8 +198,8 @@ $$
 ![diagram-with-grids](./images/voronoi/voronoi-grid.png)<!-- .element: style="max-height:650px;" -->
 
 
-![constant-dencity](./images/fire-in-cube/fog-constant-dencity.png)<!-- .element: style="max-height:300px;" -->
-![variable-dencity](./images/fire-in-cube/fog-variable-dencity.png)<!-- .element: style="max-height:300px;" -->
+![constant-density](./images/fire-in-cube/fog-constant-dencity.png)<!-- .element: style="max-height:300px;" -->
+![variable-density](./images/fire-in-cube/fog-variable-dencity.png)<!-- .element: style="max-height:300px;" -->
 
 
 ![big-step](./images/fire-in-cube/fog-variable-dencity-step-big.png)<!-- .element: style="max-height:300px;" -->
@@ -211,8 +211,8 @@ $$
 
 $$
 \begin{align*}
-FinalColor &= \int_0^L color(p(t)) \cdot dencity(p(t)) \cdot dt \newline
-FinalColor &= \sum^{steps} color(p(t)) \cdot dencity(p(t)) \cdot dt
+FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt \newline
+FinalColor &= \sum^{steps} color(p(t)) \cdot density(p(t)) \cdot dt
 \end{align*}
 $$
 
