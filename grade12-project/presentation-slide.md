@@ -192,7 +192,10 @@ $$
 
 
 ## voronoi diagram
-![diagram](./images/voronoi/voronoi.png)
+![cells-diagram](./images/fire-in-cube/voronoi-cells.png)
+
+
+![diagram](./images/voronoi/voronoi.png)<!-- .element: style="max-height:650px;" -->
 
 
 ![diagram-with-grids](./images/voronoi/voronoi-grid.png)<!-- .element: style="max-height:650px;" -->
