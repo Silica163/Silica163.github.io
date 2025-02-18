@@ -11,6 +11,9 @@
 <!-- .element: data-background-image="./images/slide/lowres-demo-image.png" -->
 
 
+![pixel](./images/slide/pixel-demo.png)<!-- .element: style="max-height:700px -->
+
+
 ## สร้างข้อมูล
 
 ### รูปทรง
@@ -112,7 +115,7 @@ $$
 
 ## สุ่ม
 ![random](./images/slide/random-things-v2.png)<!-- real-presentation only-->
-<!--![random](./images/slide/random-things.png)<!---->
+<!--[random](./images/slide/random-things.png)<!---->
 
 
 ## `fract( big_number * sin( x ) )`
@@ -131,7 +134,7 @@ $$
 
 
 ## ring
-![set-image](./images/set-a-b.svg)
+![set-image](./images/set-a-b.png)
 
 
 ![ref-of-rand](./images/ref-of-rand.gif)<!-- .element: style="max-height:650px;" -->
