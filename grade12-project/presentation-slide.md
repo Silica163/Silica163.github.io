@@ -54,6 +54,7 @@
 ![confuse-math](./images/slide/confuse-math.jpg)
 
 
+<!-- .element: style="font-size:1.1em;" -->
 $$
 \begin{align*} 
 p(t) &= \vec ray_{origin} + \vec ray_{direction} \cdot t \newline
@@ -64,20 +65,24 @@ FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt
 $$
 
 
+<h2>
 $$
 \begin{align*}
 a^n &= \underbrace{a \times a \times a \times \ldots \times a}_n \newline
 4^2 &= 4 \times 4
 \end{align*}
 $$
+</h2>
 
 
+<h2>
 $$
 \begin{align*}
 a \times b &=\underbrace{a + a + a + \ldots + a}_b\newline
 4 \times 4 &= 4 + 4 + 4 + 4
 \end{align*} 
 $$
+</h2>
 
 
 
@@ -190,7 +195,7 @@ $$
 <!-- .element: data-background-image="./images/fire-in-cube/fog-near-far-visibility.jpg" -->
 
 
-<!-- .element: data-background-image="./images/fire-in-cube/fog-near-far-visibility.jpg" data-background-opacity="50%"-->
+<!-- .element: data-background-image="./images/fire-in-cube/fog-near-far-visibility.jpg" data-background-opacity="50%" style="font-size:1.1em;"-->
 $$
 \begin{align*}
 p(t) &= \vec ray_{origin} + \vec ray_{direction} \cdot t \newline
@@ -222,6 +227,7 @@ $$
 ![fog-compare-steps](./images/fire-in-cube/fog-compare-steps.png)<!-- .element: style="max-height:650px;" -->
 
 
+<!-- .element: style="font-size:1.1em;" -->
 $$
 \begin{align*}
 FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt \newline
