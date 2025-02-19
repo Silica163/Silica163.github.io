@@ -57,7 +57,7 @@
 $$
 \begin{align*} 
 p(t) &= \vec ray_{origin} + \vec ray_{direction} \cdot t \newline
-density (\vec v) & = \min_{i,j \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j\end{bmatrix}\right)\rvert\right)\newline
+density (\vec v) & = \min_{i,j,k \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j \newline k\end{bmatrix}\right)\rvert\right)\newline
 color(\vec v) &= \vert\vec v\rvert \cdot color_1 + (1 - \lvert\vec v\rvert) \cdot color_2 \newline
 FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt
 \end{align*}
@@ -194,7 +194,7 @@ $$
 $$
 \begin{align*}
 p(t) &= \vec ray_{origin} + \vec ray_{direction} \cdot t \newline
-density (\vec v) & = \min_{i,j \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j\end{bmatrix}\right)\rvert\right)\newline
+density (\vec v) & = \min_{i,j,k \in [-1,0,1]}\left(\lvert\vec v - rand3\left(\lfloor \vec v \rfloor + \begin{bmatrix} i \newline j \newline k \end{bmatrix}\right)\rvert\right)\newline
 color(\vec v) &= \vert\vec v\rvert \cdot color_1 + (1 - \lvert\vec v\rvert) \cdot color_2 \newline
 FinalColor &= \int_0^L color(p(t)) \cdot density(p(t)) \cdot dt
 \end{align*}
