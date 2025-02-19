@@ -11,7 +11,8 @@
 <!-- .element: data-background-image="./images/slide/lowres-demo-image.png" -->
 
 
-![pixel](./images/slide/pixel-demo.png)<!-- .element: style="max-height:700px -->
+<!--[pixel](./images/slide/pixel-demo.png)<!-- element: style="max-height:700px -->
+<!-- .element: data-background-image="./images/slide/pixel-demo.png"  -->
 
 
 ## สร้างข้อมูล
@@ -102,6 +103,15 @@ $$
 
 
 ![airrow-left-buttom](./images/slide/airrow-left-buttom.png)<!-- .element: style="max-height:650px;" -->
+
+
+![airrow-left-split-novert](./images/slide/airrow-left-split-novert.png)<!-- .element: style="max-height:650px;" -->
+
+
+![airrow-one](./images/slide/airrow-single.png)<!-- .element: style="max-height:650px;" -->
+
+
+![airrow-full](./images/slide/airrow-full.png)<!-- .element: style="max-height:650px;" -->
 
 
 
